@@ -1,17 +1,8 @@
 services:
   - type: web
-    name: absenteeism-api
-    env: python
+    name: assignment-6-backend
+    env: docker
     plan: free
-    buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn app:app --bind 0.0.0.0:$PORT
-    healthCheckPath: /api/health
+    region: oregon
     autoDeploy: true
-    envVars:
-      - key: PYTHON_VERSION
-        value: 3.11.5
-      - key: CORS_ORIGINS
-        value: "*"
-      # Uncomment if your model has a different name/path:
-      # - key: MODEL_PATH
-      #   value: model.pkl
+    healthCheckPath: /healthz
