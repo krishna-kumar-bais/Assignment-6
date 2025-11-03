@@ -1,0 +1,210 @@
+{
+  "timestamp": "2025-11-03T05:07:34.217452",
+  "explanation": {
+    "feature_importance": [
+      {
+        "feature": "Work load Average/day ",
+        "mean_abs_shap": 0.6319530005480803
+      },
+      {
+        "feature": "Transportation expense",
+        "mean_abs_shap": 0.20036592764715613
+      },
+      {
+        "feature": "Distance from Residence to Work",
+        "mean_abs_shap": 0.1712614023012408
+      },
+      {
+        "feature": "Service time",
+        "mean_abs_shap": 0.11588340265042334
+      },
+      {
+        "feature": "Age",
+        "mean_abs_shap": 0.013685690332747549
+      },
+      {
+        "feature": "Social drinker_1",
+        "mean_abs_shap": 2.656643589264134e-16
+      },
+      {
+        "feature": "Day of the week_5",
+        "mean_abs_shap": 2.636276332440819e-16
+      },
+      {
+        "feature": "Day of the week_3",
+        "mean_abs_shap": 2.59230816976072e-16
+      },
+      {
+        "feature": "Son_1",
+        "mean_abs_shap": 2.3116265395472593e-16
+      },
+      {
+        "feature": "Son_2",
+        "mean_abs_shap": 2.088976842584116e-16
+      },
+      {
+        "feature": "Hit target_94",
+        "mean_abs_shap": 1.7109853031213858e-16
+      },
+      {
+        "feature": "Reason for absence_18",
+        "mean_abs_shap": 1.4721891900151023e-16
+      },
+      {
+        "feature": "Reason for absence_19",
+        "mean_abs_shap": 1.3952342193926677e-16
+      },
+      {
+        "feature": "Seasons_4",
+        "mean_abs_shap": 1.3829906111853216e-16
+      },
+      {
+        "feature": "Reason for absence_28",
+        "mean_abs_shap": 1.1319977979444692e-16
+      },
+      {
+        "feature": "Month of absence_10",
+        "mean_abs_shap": 1.114648819002728e-16
+      },
+      {
+        "feature": "Education_3",
+        "mean_abs_shap": 1.06248961826099e-16
+      },
+      {
+        "feature": "Reason for absence_22",
+        "mean_abs_shap": 1.0485056989560572e-16
+      },
+      {
+        "feature": "Pet_4",
+        "mean_abs_shap": 1.0485056989560572e-16
+      },
+      {
+        "feature": "Hit target_96",
+        "mean_abs_shap": 1.046101567077602e-16
+      },
+      {
+        "feature": "Hit target_92",
+        "mean_abs_shap": 1.0168834339561052e-16
+      },
+      {
+        "feature": "Hit target_91",
+        "mean_abs_shap": 9.493348673878274e-17
+      },
+      {
+        "feature": "Month of absence_6",
+        "mean_abs_shap": 9.017541832938077e-17
+      },
+      {
+        "feature": "Pet_1",
+        "mean_abs_shap": 8.99931436299294e-17
+      },
+      {
+        "feature": "Month of absence_5",
+        "mean_abs_shap": 8.664688811877927e-17
+      },
+      {
+        "feature": "Hit target_99",
+        "mean_abs_shap": 8.664688811877927e-17
+      },
+      {
+        "feature": "Hit target_97",
+        "mean_abs_shap": 8.482811224497817e-17
+      },
+      {
+        "feature": "Month of absence_2",
+        "mean_abs_shap": 8.482811224497807e-17
+      },
+      {
+        "feature": "Reason for absence_27",
+        "mean_abs_shap": 8.482811224497803e-17
+      },
+      {
+        "feature": "Hit target_100",
+        "mean_abs_shap": 8.270397354309326e-17
+      },
+      {
+        "feature": "Reason for absence_26",
+        "mean_abs_shap": 8.270397354309293e-17
+      },
+      {
+        "feature": "Reason for absence_25",
+        "mean_abs_shap": 7.87721546797493e-17
+      },
+      {
+        "feature": "Social smoker_1",
+        "mean_abs_shap": 7.877215467974912e-17
+      },
+      {
+        "feature": "Seasons_2",
+        "mean_abs_shap": 7.459682095069062e-17
+      },
+      {
+        "feature": "Reason for absence_14",
+        "mean_abs_shap": 7.254743215757923e-17
+      },
+      {
+        "feature": "Pet_2",
+        "mean_abs_shap": 5.1882803773301434e-17
+      },
+      {
+        "feature": "Day of the week_4",
+        "mean_abs_shap": 4.1462458860151244e-17
+      },
+      {
+        "feature": "Reason for absence_13",
+        "mean_abs_shap": 3.3427987155161584e-17
+      },
+      {
+        "feature": "Month of absence_7",
+        "mean_abs_shap": 3.204101971340036e-17
+      },
+      {
+        "feature": "Reason for absence_23",
+        "mean_abs_shap": 3.0987416976254435e-17
+      },
+      {
+        "feature": "Hit target_88",
+        "mean_abs_shap": 3.080724210426556e-17
+      },
+      {
+        "feature": "Hit target_98",
+        "mean_abs_shap": 2.9205574553814324e-17
+      },
+      {
+        "feature": "Hit target_93",
+        "mean_abs_shap": 2.3782399135001014e-17
+      },
+      {
+        "feature": "Month of absence_11",
+        "mean_abs_shap": 2.3077051656735288e-17
+      },
+      {
+        "feature": "Day of the week_6",
+        "mean_abs_shap": 2.307705165673514e-17
+      },
+      {
+        "feature": "Hit target_95",
+        "mean_abs_shap": 3.81775026124523e-18
+      },
+      {
+        "feature": "Month of absence_4",
+        "mean_abs_shap": 3.580138420566587e-18
+      },
+      {
+        "feature": "Seasons_3",
+        "mean_abs_shap": 2.804576782676685e-18
+      },
+      {
+        "feature": "Month of absence_9",
+        "mean_abs_shap": 1.5202093053818292e-18
+      },
+      {
+        "feature": "Reason for absence_6",
+        "mean_abs_shap": 0.0
+      }
+    ],
+    "explainer_type": "LinearExplainer",
+    "sample_size": 100,
+    "cached": false
+  }
+}
