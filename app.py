@@ -93,15 +93,6 @@ def preprocess_input(data):
     
     return df_encoded
 
-@app.route('/')
-def index():
-    """Serve the frontend"""
-    return send_from_directory(app.static_folder, 'index.html')
-
-@app.route('/<path:path>')
-def serve_react_app(path):
-    """Serve frontend for all other routes"""
-    return send_from_directory(app.static_folder, 'index.html')
 
 @app.route('/api/predict', methods=['POST'])
 def predict():
@@ -207,15 +198,22 @@ def feature_importance():
     except Exception as e:
         return jsonify({'error': str(e)}), 500
 
-if __name__ == '__main__':
-    load_model()
-    port = int(os.environ.get('PORT', 5001))  # Use 5001 if 5000 is busy
-    app.run(debug=True, host='0.0.0.0', port=port)
-
-# Ensure model is loaded when the app module is imported (gunicorn workers)
+# Ensure model is loaded when the app module is imported (for gunicorn)
 load_model()
 
+@app.route('/')
+def index():
+    """Root endpoint for backend"""
+    return jsonify({
+        "status": "Backend running",
+        "message": "Assignment 6 Explainability API is live!"
+    })
+
+@app.route('/healthz')
+def healthz():
+    """Health check for Render"""
+    return jsonify({"status": "ok"})
+
 if __name__ == '__main__':
-    import os
     port = int(os.environ.get('PORT', 5000))
     app.run(host='0.0.0.0', port=port, debug=False)
